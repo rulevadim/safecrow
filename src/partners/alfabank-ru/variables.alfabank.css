@@ -1,0 +1,83 @@
+:root {
+  /* General colors */
+  --color-bg: #212a33;
+  --color-title: #172a3f;
+  --color-text-accent: #172a3f;
+  --color-text-accent-on-bg: #fff;
+  --color-border: #c5c5c5;
+  --color-notice: #546271;
+  --color-notice-color: #ef3124;
+  --color-notice-link: #00e;
+  --color-primary: #ea3f3f;
+
+  /* B U T T O N S */
+  --color-btn-border: #ea3f3f;
+  --color-btn-bg: transparent;
+  --color-btn-text: #ea3f3f;
+  --color-btn-border-hover: #edcfd1;
+  --color-btn-bg-hover: #edcfd1;
+  --color-btn-text-hover: #ea3f3f;
+  --color-btn-border-active: #ecabac;
+  --color-btn-bg-active: #ecabac;
+  --color-btn-text-active: #ea3f3f;
+
+  /* header button */
+  --color-header-btn-border: #ea3f3f;
+  --color-header-btn-bg: transparent;
+  --color-header-btn-text: #ea3f3f;
+  --color-header-btn-border-hover: #edcfd1;
+  --color-header-btn-bg-hover: #edcfd1;
+  --color-header-btn-text-hover: #ea3f3f;
+  --color-header-btn-border-active: #ecabac;
+  --color-header-btn-bg-active: #ecabac;
+  --color-header-btn-text-active: #ea3f3f;
+
+  /* Inputs */
+  --color-input-label: #546271;
+  --color-input-border-focus: #212a33;
+
+  /* Radio buttons */
+  --color-input-radio: #b5bbc2;
+  --color-input-radio-checked: #ef3124;
+  --color-input-radio-label: #546271;
+
+  /* Tables */
+  --color-table-bg-caption: #212a33;
+  --color-table-title: #fff;
+  --color-table-text: #000;
+  --color-table-dot-line: #546271;
+
+  /* Header colors */
+  --color-header-link: #172a3f;
+  --color-header-link-on-bg: white;
+  --color-header-bg: white;
+  --color-header-bg-open: #212a33;
+  --color-header-burger: #172a3f;
+  --color-header-burger-on-bg: #fff;
+  --color-header-border: #c3c9cc;
+  --color-header-border-on-bg: #fff;
+  --color-header-backlink: #172a3f;
+
+  /* Footer colors */
+  --color-footer-bg: #212a33;
+  --color-footer-icon: #ef3124;
+  --color-footer-icon-bg: #212a33;
+  --color-footer-title: #546271;
+  --color-footer-text: #b5bbc2;
+  --color-footer-text-bottom: #b5bbc2;
+  --color-footer-link: #fff;
+  --color-footer-link-partner: #ef3124;
+
+  /* Login page */
+  --color-btn-phone-code: #ef3124;
+
+  /* Order-new page */
+  --color-btn-file: #ef3124;
+
+  /* Orders page */
+  --color-orders-scrollbar: #172a3f;
+  --color-orders-scrollbar-bg: #b5bbc2;
+
+  /* Requisites page */
+  --color-requisites-btn-edit: #ef3124;
+}

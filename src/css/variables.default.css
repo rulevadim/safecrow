@@ -1,0 +1,121 @@
+:root {
+  /* Font */
+  --font-family: 'PT Sans';
+  --root-font-size: 18px;
+
+  /* Dimensions */
+  --breakpoint_xs: 576px;
+  --breakpoint_sm: 768px;
+  --breakpoint_xl: 1920px;
+  --container-width_xs: 448px;
+  --container-width_sm: 640px;
+  --container-width_xl: 1472px;
+  --container-padding-right_sm: 120px;
+  --radius: 6px;
+
+  /* General colors */
+  --color-bg: #bedded;
+  --color-title: #000;
+  --color-text-accent: #0083cc;
+  --color-text-accent-on-bg: #0083cc;
+  --color-border: #c5c5c5;
+  --color-notice: #000;
+  --color-notice-color: #0083cc;
+  --color-notice-link: #0083cc;
+  --color-primary: #0083cc;
+  --color-success: #27ae60;
+  --color-success_light: #9ed7b9;
+  --color-success_lighter: #c6e5d7;
+  --color-warning: #f2994a;
+  --color-warning_light: #f0cfb1;
+  --color-warning_lighter: #efe1d3;
+  --color-danger: #ea3f3f;
+  --color-danger_light: #ecabac;
+  --color-danger_lighter: #edcfd1;
+  --color-disable_dark: #818181;
+  --color-disable_lighter: #dfe3e4;
+
+  /* B U T T O N S */
+  --color-btn-border: #0083cc;
+  --color-btn-bg: transparent;
+  --color-btn-text: #0083cc;
+  --color-btn-border-hover: #bedded;
+  --color-btn-bg-hover: #bedded;
+  --color-btn-text-hover: #0083cc;
+  --color-btn-border-active: #8fc6e5;
+  --color-btn-bg-active: #8fc6e5;
+  --color-btn-text-active: #0083cc;
+  --transition-btn: none;
+  --radius-btn: 1000px;
+
+  /* header button */
+  --color-header-btn-border: #0083cc;
+  --color-header-btn-bg: transparent;
+  --color-header-btn-text: #0083cc;
+  --color-header-btn-border-hover: #bedded;
+  --color-header-btn-bg-hover: #bedded;
+  --color-header-btn-text-hover: #0083cc;
+  --color-header-btn-border-active: #8fc6e5;
+  --color-header-btn-bg-active: #8fc6e5;
+  --color-header-btn-text-active: #0083cc;
+  --transition-btn-header: none;
+  --radius-btn-header: 1000px;
+
+  /* Inputs */
+  --color-input-label: #000;
+  --color-input-text: #000;
+  --color-input-placeholder: #b5bbc2;
+  --color-input-border: #c5c5c5;
+  --color-input-border-focus: #0083cc;
+
+  /* Radio buttons */
+  --color-input-radio: #c5c5c5;
+  --color-input-radio-checked: #0083cc;
+  --color-input-radio-label: #000;
+
+  /* Tables */
+  --color-table-bg: #fff;
+  --color-table-bg-caption: #bedded;
+  --color-table-title: #0083cc;
+  --color-table-text: #000;
+  --color-table-dot-line: #000;
+
+  /* Box-shadow */
+  --base-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* Header colors */
+  --color-header-link: #0083cc;
+  --color-header-link-on-bg: #0083cc;
+  --color-header-bg: white;
+  --color-header-bg-open: #bedded;
+  --color-header-burger: #0083cc;
+  --color-header-burger-on-bg: #0083cc;
+  --color-header-border: #c3c9cc;
+  --color-header-border-on-bg: #0083cc;
+  --color-header-backlink: #0083cc;
+
+  /* Footer colors */
+  --color-footer-bg: #bedded;
+  --color-footer-icon: #0083cc;
+  --color-footer-icon-bg: #fff;
+  --color-footer-title: #000;
+  --color-footer-text: #000;
+  --color-footer-text-bottom: #000;
+  --color-footer-link: #0083cc;
+  --color-footer-link-partner: #0083cc;
+
+  /* Login page */
+  --color-btn-phone-code: #0083cc;
+
+  /* Order-new page */
+  --color-btn-file: #0083cc;
+
+  /* Orders page */
+  --color-orders-scrollbar: #0083cc;
+  --color-orders-scrollbar-bg: #bedded;
+
+  /* Requisites page */
+  --color-suggestion-row: lightgray;
+  --color-suggestion-row-hover: gray;
+  --color-requisites-btn-edit: #0083cc;
+}

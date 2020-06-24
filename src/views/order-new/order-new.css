@@ -1,0 +1,62 @@
+.page-main_order-new {
+  padding-bottom: 1.111111rem;
+}
+
+.order-new-form {
+  width: 448px;
+  max-width: 100%;
+}
+
+@media (--sm) {
+  .order-new-form {
+    width: 100%;
+  }
+}
+
+.order-new-form__contract-file-btn {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.order-new-form__contract-file-btn__text {
+  padding-left: 10px;
+}
+
+.order-new-form__contract-file__item__delete-btn {
+  padding: 5px;
+  color: var(--color-danger);
+}
+
+.order-new-form-group__radio-wrapper {
+  padding-top: 4px;
+  margin-left: 3px;
+}
+
+.order-new-form-group__label_thin {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.order-new-form-group__label__text {
+  padding-left: 12px;
+}
+
+.order-new-form__submit-btn {
+  margin-top: 3rem;
+}
+
+.order-new-rules__link:hover {
+  text-decoration: underline;
+}
+
+.order-new-form__input_date[readonly] {
+  border-color: var(--color-input-border) !important;
+}
+
+.order-new-form__submit-btn-icon {
+  margin-left: 0.5rem;
+  font-size: 0.9em;
+}

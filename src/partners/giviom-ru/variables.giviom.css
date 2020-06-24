@@ -1,0 +1,83 @@
+:root {
+  /* General colors */
+  --color-bg: #e8e8e8;
+  --color-title: black;
+  --color-text-accent: black;
+  --color-text-accent-on-bg: black;
+  --color-border: #c5c5c5;
+  --color-notice: #546271;
+  --color-notice-color: #faaf0e;
+  --color-notice-link: #00e;
+  --color-primary: #faaf0e;
+
+  /* B U T T O N S */
+  --color-btn-border: #faaf0e;
+  --color-btn-bg: #faaf0e;
+  --color-btn-text: white;
+  --color-btn-border-hover: #faaf0e;
+  --color-btn-bg-hover: transparent;
+  --color-btn-text-hover: black;
+  --color-btn-border-active: #faaf0e;
+  --color-btn-bg-active: transparent;
+  --color-btn-text-active: black;
+
+  /* header button */
+  --color-header-btn-border: #faaf0e;
+  --color-header-btn-bg: #faaf0e;
+  --color-header-btn-text: white;
+  --color-header-btn-border-hover: #faaf0e;
+  --color-header-btn-bg-hover: transparent;
+  --color-header-btn-text-hover: black;
+  --color-header-btn-border-active: #faaf0e;
+  --color-header-btn-bg-active: transparent;
+  --color-header-btn-text-active: black;
+
+  /* Inputs */
+  --color-input-label: black;
+  --color-input-border-focus: #212a33;
+
+  /* Radio buttons */
+  --color-input-radio: #b5bbc2;
+  --color-input-radio-checked: #faaf0e;
+  --color-input-radio-label: #546271;
+
+  /* Tables */
+  --color-table-bg-caption: #e8e8e8;
+  --color-table-title: black;
+  --color-table-text: #000;
+  --color-table-dot-line: #546271;
+
+  /* Header colors */
+  --color-header-link: black;
+  --color-header-link-on-bg: black;
+  --color-header-bg: white;
+  --color-header-bg-open: #e8e8e8;
+  --color-header-burger: black;
+  --color-header-burger-on-bg: black;
+  --color-header-border: #c3c9cc;
+  --color-header-border-on-bg: #c3c9cc;
+  --color-header-backlink: black;
+
+  /* Footer colors */
+  --color-footer-bg: #e8e8e8;
+  --color-footer-icon: #faaf0e;
+  --color-footer-icon-bg: #e8e8e8;
+  --color-footer-title: black;
+  --color-footer-text: black;
+  --color-footer-text-bottom: black;
+  --color-footer-link: black;
+  --color-footer-link-partner: #faaf0e;
+
+  /* Login page */
+  --color-btn-phone-code: #faaf0e;
+
+  /* Order-new page */
+  --color-btn-file: #faaf0e;
+
+  /* Orders page */
+  --color-orders-scrollbar: #faaf0e;
+  --color-orders-scrollbar-bg: #e8e8e8;
+
+  /* Requisites page */
+  --color-requisites-btn-edit: #faaf0e;
+}

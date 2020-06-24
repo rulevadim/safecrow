@@ -1,0 +1,43 @@
+.form-group + .form-group {
+  margin-top: 1.666667rem;
+}
+
+.form-group_file {
+  margin-top: 0.555556rem !important;
+}
+
+.form-group__label {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.222222rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-input-label);
+}
+
+.form-group__label > input[type='radio'] + span {
+  color: var(--color-input-radio-label);
+}
+
+.form-group__label_commission {
+  margin-bottom: 0.333333rem;
+}
+
+.form-group__input {
+  display: block;
+  width: 100%;
+}
+
+.form-group__input_link {
+  padding-right: 3rem;
+  overflow: hidden;
+}
+
+.form-group__error {
+  display: block;
+  width: 100%;
+  margin-top: 0.1rem;
+  font-size: 0.9em;
+  line-height: 1.1;
+  color: var(--color-danger);
+}

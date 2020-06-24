@@ -1,0 +1,43 @@
+/* podkova-regular - latin_cyrillic */
+@font-face {
+  font-family: 'MTSSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/MTSSans/MTSSans-Regular.otf');
+}
+@font-face {
+  font-family: 'MTSSans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/MTSSans/MTSSans-Medium.otf');
+}
+@font-face {
+  font-family: 'MTSSans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/MTSSans/MTSSans-Bold.otf');
+}
+@font-face {
+  font-family: 'MTSSans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/MTSSans/MTSSans-Black.otf');
+}
+@font-face {
+  font-family: 'MTSSans-UltraWide';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/MTSSans/MTSSans-UltraWide.otf');
+}
+@font-face {
+  font-family: 'Exo2';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('/fonts/Exo2/Exo2-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Exo2';
+  font-style: italic;
+  font-weight: 100 900;
+  src: url('/fonts/Exo2/Exo2-Italic-VariableFont_wght.ttf');
+}

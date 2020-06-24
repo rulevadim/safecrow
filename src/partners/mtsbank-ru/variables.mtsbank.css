@@ -1,0 +1,91 @@
+:root {
+  /* Font */
+  --font-family: 'MTSSans';
+
+  /* General colors */
+  --color-bg: #212a33;
+  --color-title: rgb(32, 45, 61);
+  --color-text-accent: #172a3f;
+  --color-text-accent-on-bg: #fff;
+  --color-border: #c5c5c5;
+  --color-notice: #546271;
+  --color-notice-color: #ef3124;
+  --color-notice-link: #00e;
+  --color-primary: #ea3f3f;
+
+  /* B U T T O N S */
+  --color-btn-border: #e30611;
+  --color-btn-bg: #e30611;
+  --color-btn-text: #fff;
+  --color-btn-border-hover: #c8050f;
+  --color-btn-bg-hover: #c8050f;
+  --color-btn-text-hover: #fff;
+  --color-btn-border-active: #c8050f;
+  --color-btn-bg-active: #c8050f;
+  --color-btn-text-active: #fff;
+  --transition-btn: all ease 0.2s;
+  --radius-btn: 4px;
+
+  /* header button */
+  --color-header-btn-border: #e30611;
+  --color-header-btn-bg: #e30611;
+  --color-header-btn-text: #fff;
+  --color-header-btn-border-hover: #c8050f;
+  --color-header-btn-bg-hover: #c8050f;
+  --color-header-btn-text-hover: #fff;
+  --color-header-btn-border-active: #c8050f;
+  --color-header-btn-bg-active: #c8050f;
+  --color-header-btn-text-active: #fff;
+  --transition-btn-header: all ease 0.2s;
+  --radius-btn-header: 4px;
+
+  /* Inputs */
+  --color-input-label: #546271;
+  --color-input-border-focus: #212a33;
+
+  /* Radio buttons */
+  --color-input-radio: #b5bbc2;
+  --color-input-radio-checked: #e30611;
+  --color-input-radio-label: #546271;
+
+  /* Tables */
+  --color-table-bg: #fff;
+  --color-table-bg-caption: rgb(226, 229, 235);
+  --color-table-title: rgb(32, 45, 61);
+  --color-table-text: #000;
+  --color-table-dot-line: #546271;
+
+  /* Header colors */
+  --color-header-link: rgb(32, 45, 61);
+  --color-header-link-on-bg: rgb(32, 45, 61);
+  --color-header-bg: rgb(242, 243, 247);
+  --color-header-bg-open: rgb(242, 243, 247);
+  --color-header-burger: rgb(32, 45, 61);
+  --color-header-burger-on-bg: rgb(32, 45, 61);
+  --color-header-border: #c3c9cc;
+  --color-header-border-on-bg: #c3c9cc;
+  --color-header-backlink: rgb(32, 45, 61);
+
+  /* Footer colors */
+  --color-footer-bg: rgb(242, 243, 247);
+  --color-footer-icon: rgb(32, 45, 61);
+  --color-footer-icon-bg: rgb(226, 229, 235);
+  --color-footer-title: rgb(32, 45, 61);
+  --color-footer-text: rgb(110, 119, 130);
+  --color-footer-text-bottom: rgb(110, 119, 130);
+  --color-footer-link: rgb(110, 119, 130);
+  --color-footer-link-partner: rgb(110, 119, 130);
+
+  /* Login page */
+  --color-btn-phone-code: #e30611;
+
+  /* Order-new page */
+  --color-btn-file: #e30611;
+
+  /* Orders page */
+  --color-orders-scrollbar: #172a3f;
+  --color-orders-scrollbar-bg: #b5bbc2;
+
+  /* Requisites page */
+  --color-requisites-btn-edit: #e30611;
+}

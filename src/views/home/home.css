@@ -1,0 +1,62 @@
+.home-notice {
+  margin-bottom: 39px;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.home-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 184px;
+  margin-bottom: 36px;
+  text-decoration: none;
+  background: #cce6f5;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(13, 114, 185, 0.16);
+}
+
+@media (--sm) {
+  .home-button {
+    height: 156px;
+  }
+}
+
+@media (--xl) {
+  .home-button {
+    display: inline-flex;
+    width: 448px;
+    max-width: 100%;
+    height: 272px;
+    margin-right: 64px;
+  }
+}
+
+.home-button_last {
+  margin-bottom: 99px;
+}
+
+.home-button__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 154px;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+}
+
+@media (--xl) {
+  .home-button__icons {
+    margin-bottom: 22px;
+  }
+}
+
+.home-button__text {
+  padding: 0 30px;
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--color-primary);
+  text-align: center;
+  text-decoration: none;
+}

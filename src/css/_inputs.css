@@ -1,0 +1,116 @@
+.input,
+.textarea {
+  max-width: 100%;
+  padding: 0.888889rem 1rem;
+  font-family: inherit;
+  font-size: 1.222222rem;
+  color: var(--color-input-text);
+  background: #fff;
+  border: 1px solid var(--color-input-border);
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.09);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--color-input-placeholder);
+}
+
+.input_login-phone::placeholder {
+  color: black !important;
+  opacity: 1;
+}
+
+.textarea {
+  resize: none;
+}
+
+.textarea:focus {
+  border-color: var(--color-input-border-focus);
+}
+
+.input[type='radio'] {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid var(--color-input-radio);
+  border-radius: 50%;
+  appearance: none;
+}
+
+.input[type='radio']:checked {
+  border-color: var(--color-input-radio-checked);
+}
+
+.input[type='radio']:checked::before {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: inline-block;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  content: '';
+  background-color: var(--color-input-radio-checked);
+  border-radius: 50%;
+}
+
+.input[type='radio']:disabled {
+  border-color: var(--color-disable_lighter);
+}
+
+.input[type='radio']:disabled:checked::before {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: inline-block;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  content: '';
+  background-color: var(--color-disable_lighter);
+  border-color: var(--color-disable_lighter);
+  border-radius: 50%;
+}
+
+.select {
+  padding: 15px;
+  font-family: inherit;
+  font-size: 1.222222rem;
+  background: #fff;
+  background: url(~@/assets/expand_more_24px.svg) no-repeat calc(100% - 20px);
+  border: 1px solid var(--color-input-border);
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.09);
+  appearance: none;
+}
+
+.input[disabled],
+.select[disabled] {
+  color: var(--color-disable_dark) !important;
+  cursor: not-allowed;
+  background-color: var(--color-disable_lighter) !important;
+  border-color: var(--color-disable_lighter) !important;
+}
+
+.input[readonly],
+.select[readonly] {
+  border-color: var(--color-disable_lighter) !important;
+}
+
+.input:focus:not([type='radio']):not([disabled]),
+.input:focus:not([type='radio']):not([readonly]),
+.select:focus:not([type='radio']):not([disabled]),
+.select:focus:not([type='radio']):not([readonly]) {
+  border-color: var(--color-input-border-focus);
+}
+
+.input_error:not([disabled]),
+.input_error:not([readonly]),
+.select_error:not([disabled]),
+.select_error:not([readonly]) {
+  border-color: var(--color-danger);
+}

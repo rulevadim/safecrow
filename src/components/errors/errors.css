@@ -1,0 +1,12 @@
+.page-main__error__title {
+  margin: 3rem 0 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-title);
+}
+
+.page-main__error__desc {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-notice);
+}

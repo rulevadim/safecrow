@@ -1,0 +1,143 @@
+.requisites-form {
+  width: 448px;
+  max-width: 100%;
+}
+
+.form-group_suggestions {
+  position: relative;
+}
+
+@media (--xl) {
+  .form-group_suggestions_company {
+    width: 100%;
+    max-width: 960px;
+  }
+}
+
+.requisites-notice {
+  margin-top: 0.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.25;
+  color: var(--color-notice);
+}
+
+.requisites-notice_color {
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.1;
+  color: var(--color-notice-color);
+}
+
+.requisites-page-title-wrapper + .requisites-form > .requisites-notice_color {
+  margin-top: -1rem;
+}
+
+.suggestions {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  list-style: none;
+  background: #fff;
+  border: 1px solid var(--color-input-focus);
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+}
+
+.suggestions__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 2rem;
+  padding-left: 1rem;
+  overflow: hidden;
+}
+
+.suggestions__item:nth-child(even) {
+  background: var(--color-suggestion-row);
+}
+
+.suggestions__item:hover {
+  background: var(--color-suggestion-row-hover);
+}
+
+.suggestions__company-name {
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.requisites-page-title-wrapper {
+  margin: 3rem 0 1rem;
+}
+
+@media (--xl) {
+  .requisites-page-title-wrapper {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.requisites-data-edit-form-wrapper {
+  line-height: 3;
+}
+
+@media (--xl) {
+  .requisites-data-edit-form-wrapper {
+    margin-left: 1rem;
+  }
+}
+
+.requisites-add-button {
+  display: block;
+  padding: 0.35rem 0.75rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.requisites__modal {
+  padding: 2rem;
+  overflow-y: scroll;
+}
+
+.requisites__modal-content {
+  position: relative;
+  box-sizing: content-box;
+  max-width: 448px;
+  padding: 2rem;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.requisites__modal-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.requisites__modal-submit-btn {
+  margin-top: 1.666667rem;
+}
+
+/* For <transition> component */
+.suggestions-enter-active,
+.suggestions-leave-active {
+  transition: opacity 500ms;
+}
+.suggestions-enter,
+.suggestions-leave-to {
+  opacity: 0;
+}

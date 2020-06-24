@@ -1,0 +1,196 @@
+.file-btn-icon {
+  font-size: 1.2em;
+}
+
+.file-preview {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.file-preview:hover,
+.file-preview:active {
+  cursor: zoom-in;
+}
+
+.file-preview_error {
+  background: var(--color-disable_lighter) !important;
+}
+
+.file-preview__img,
+.file-preview__icon {
+  display: block;
+  flex-shrink: 0;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.5rem;
+}
+
+.file-preview__img {
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.file-preview__icon {
+  padding: 0.5rem;
+  color: var(--color-title);
+}
+
+.file-preview__description {
+  margin-right: 1rem;
+}
+
+/* .file-preview__name {} */
+
+.file-preview__size {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.file-preview__btn {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-border);
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius);
+  transition: 250ms ease;
+}
+
+.file-preview_error .file-preview__btn {
+  color: var(--color-btn-file);
+  border-color: var(--color-btn-file) !important;
+}
+
+.file-preview_error .file-preview__img,
+.file-preview_error .file-preview__name,
+.file-preview_error .file-preview__size {
+  opacity: 0.2;
+}
+
+.file-preview_error .file-preview__name,
+.file-preview_error .file-preview__size {
+  line-height: 1;
+  text-decoration: line-through;
+}
+
+.file-preview__btn:hover,
+.file-preview__btn:active {
+  color: var(--color-btn-file);
+  border-color: var(--color-btn-file) !important;
+}
+
+.file-preview__error {
+  margin-bottom: 0.1rem;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.1;
+  color: var(--color-danger);
+}
+
+/* .file-preview__img img {
+
+} */
+
+.form-group-file-btn {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.form-group-file-btn__text {
+  padding-left: 10px;
+}
+
+.form-group-file__items {
+  list-style-type: none;
+}
+
+/* .form-group-file__item {} */
+
+.form-group-file__item__delete-btn {
+  padding: 5px;
+  color: var(--color-danger);
+}
+
+.form-group-file__btn-close-modal {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.form-group-file__btn-close-modal:hover {
+  color: red;
+}
+
+.form-group-file__img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form-group-file__img {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.form-group-file__pdf-page-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form-group-file__pdf-page {
+  width: 600px;
+  max-width: 100%;
+}
+
+.form-group-file__pdf-page a {
+  pointer-events: none !important;
+}
+
+.form-group-file__pdf-btns {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  z-index: 10;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 100vw;
+  transform: translateX(-50%);
+}
+
+.form-group-file__pdf-btns button {
+  padding: 0;
+  color: gray;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.form-group-file__pdf-btns button:hover {
+  color: black;
+}
+
+.form-group-file__pdf-btns span {
+  margin: 0 1rem;
+}

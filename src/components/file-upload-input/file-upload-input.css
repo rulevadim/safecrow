@@ -1,0 +1,102 @@
+.form-group-file-btn {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.form-group-file-btn__text {
+  padding-left: 10px;
+}
+
+.form-group-file__items {
+  list-style-type: none;
+}
+
+/* .form-group-file__item {} */
+
+.form-group-file__item__delete-btn {
+  padding: 5px;
+  color: var(--color-danger);
+}
+
+.form-group-file__btn-close-modal {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.form-group-file__btn-close-modal:hover {
+  color: red;
+}
+
+.form-group-file__img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form-group-file__img {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.form-group-file__pdf-page-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form-group-file__pdf-page {
+  width: 600px;
+  max-width: 100%;
+}
+
+.form-group-file__pdf-page a {
+  pointer-events: none !important;
+}
+
+.form-group-file__pdf-btns {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  z-index: 10;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 100vw;
+  transform: translateX(-50%);
+}
+
+.form-group-file__pdf-btns button {
+  padding: 0;
+  color: gray;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.form-group-file__pdf-btns button:hover {
+  color: black;
+}
+
+.form-group-file__pdf-btns span {
+  margin: 0 1rem;
+}

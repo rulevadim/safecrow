@@ -1,0 +1,116 @@
+.login-form {
+  width: 448px;
+  max-width: 100%;
+}
+
+@media (--sm) {
+  .login-form {
+    width: 100%;
+  }
+}
+
+.login-form-splitter {
+  position: relative;
+  margin: 1rem 0 0.333333rem;
+  font-size: 1.333333rem;
+  font-style: italic;
+  color: var(--color-text-accent);
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.login-form-splitter::before,
+.login-form-splitter::after {
+  position: absolute;
+  top: 50%;
+  display: block;
+  height: 1px;
+  content: '';
+  background: var(--color-text-accent);
+}
+
+.login-form-splitter::before {
+  right: calc(50% + 2rem);
+  left: 1rem;
+}
+
+.login-form-splitter::after {
+  right: 1rem;
+  left: calc(50% + 2rem);
+}
+
+.login-form-group__code-btn {
+  margin-top: 0.333333rem;
+  font-size: 1.111111rem;
+  font-weight: bold;
+  color: var(--color-btn-phone-code);
+  text-decoration: underline;
+}
+
+.login-form-group__code-btn:disabled {
+  background: none !important;
+}
+
+.login-form-group__help {
+  margin-top: 0.333333rem;
+  margin-bottom: 1.333333rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.login-form__input_code {
+  box-sizing: content-box;
+  width: calc(9.5ch);
+  padding-right: calc(0.888889rem - 0.5ch);
+  overflow: hidden;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5ch;
+  background: repeating-linear-gradient(
+      90deg,
+      var(--color-input-placeholder) 0,
+      var(--color-input-placeholder) 1ch,
+      transparent 0,
+      transparent 1.5ch
+    )
+    0 2.3rem /10.5ch 2px no-repeat;
+  background-clip: content-box;
+  box-shadow: none;
+}
+
+.login-form-group__error {
+  margin-top: 0.333333rem;
+  color: var(--color-danger);
+}
+
+@media (--xl) {
+  .login-form-group__help {
+    width: calc(100% + 120px);
+  }
+}
+
+.login-form-group__help_new-code {
+  margin-top: 0;
+  font-size: 0.777778rem;
+}
+
+.login-form__submit-btn {
+  margin-top: 3rem;
+}
+
+.login-form__oauth-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 25px;
+}
+
+.login-form__oauth-btn__text {
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.login-form__submit-btn-icon {
+  margin-left: 0.5rem;
+  font-size: 0.9em;
+}

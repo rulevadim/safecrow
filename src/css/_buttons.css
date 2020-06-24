@@ -1,0 +1,156 @@
+.btn {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: black;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: var(--radius-btn);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn[disabled]:not(.btn_link),
+.btn:disabled:not(.btn_link) {
+  color: var(--color-disable_dark) !important;
+  cursor: not-allowed;
+  background: var(--color-disable_lighter) !important;
+  border-color: var(--color-disable_lighter) !important;
+}
+
+.btn_link {
+  color: var(--color-primary);
+  text-decoration: none;
+  background: transparent !important;
+  border: none !important;
+}
+
+.btn_link[disabled],
+.btn_link:disabled {
+  color: var(--color-disable_dark) !important;
+  cursor: not-allowed;
+}
+
+.btn_link:hover {
+  text-decoration: underline;
+  background: transparent !important;
+}
+
+.btn_primary {
+  color: var(--color-btn-text);
+  background: var(--color-btn-bg);
+  border-color: var(--color-btn-border);
+  transition: var(--transition-btn);
+}
+
+.btn_primary:hover {
+  color: var(--color-btn-text-hover);
+  background: var(--color-btn-bg-hover);
+  border-color: var(--color-btn-border-hover);
+}
+
+.btn_primary:active {
+  color: var(--color-btn-text-active);
+  background: var(--color-btn-bg-active);
+  border-color: var(--color-btn-border-active);
+}
+
+.btn_success {
+  color: var(--color-success);
+  background: transparent;
+  border-color: var(--color-success);
+}
+
+.btn_success:hover {
+  background: var(--color-success_lighter);
+  border-color: var(--color-success_lighter);
+}
+
+.btn_success:active {
+  background: var(--color-success_light);
+  border-color: var(--color-success_light);
+}
+
+.btn_danger {
+  color: var(--color-danger);
+  background: transparent;
+  border-color: var(--color-danger);
+}
+
+.btn_danger:hover {
+  background: var(--color-danger_lighter);
+  border-color: var(--color-danger_lighter);
+}
+
+.btn_danger:active {
+  background: var(--color-danger_light);
+  border-color: var(--color-danger_light);
+}
+
+.btn_header_login {
+  display: block;
+  color: var(--color-header-btn-text);
+  background: var(--color-header-btn-bg);
+  border-color: var(--color-header-btn-border);
+  border-radius: var(--radius-btn-header);
+  transition: var(--transition-btn-header);
+}
+
+.btn_header_login:hover {
+  color: var(--color-header-btn-text-hover);
+  background: var(--color-header-btn-bg-hover);
+  border-color: var(--color-header-btn-border-hover);
+}
+
+.btn_header_login:active {
+  color: var(--color-header-btn-text-active);
+  background: var(--color-header-btn-bg-active);
+  border-color: var(--color-header-btn-border-active);
+}
+
+.btn_icon {
+  background: transparent !important;
+}
+
+.btn_file {
+  color: var(--color-btn-file);
+}
+
+.btn_no-border {
+  border-color: transparent;
+}
+
+.btn_submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 448px;
+  max-width: 100%;
+  height: 64px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (--sm) {
+  .btn_submit {
+    width: 100%;
+  }
+}
+
+@media (--xs) {
+  .btn_submit {
+    width: 100%;
+  }
+}
+
+.btn_edit {
+  padding: 0.25rem 0.5rem;
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1;
+}

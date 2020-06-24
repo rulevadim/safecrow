@@ -1,0 +1,88 @@
+:root {
+  /* Font */
+  --font-family: 'Exo2';
+
+  /* General colors */
+  --color-bg: #29363d;
+  --color-title: rgb(32, 45, 61);
+  --color-text-accent: #29363d;
+  --color-text-accent-on-bg: #fff;
+  --color-border: #c5c5c5;
+  --color-notice: #546271;
+  --color-notice-color: #f80;
+  --color-notice-link: #00e;
+  --color-primary: #f80;
+
+  /* B U T T O N S */
+  --color-btn-border: transparent;
+  --color-btn-bg: padding-box linear-gradient(to top, #ff2b0c, #f80);
+  --color-btn-text: #fff;
+  --color-btn-border-hover: transparent;
+  --color-btn-bg-hover: padding-box linear-gradient(to top, #ff2b0c, #f80);
+  --color-btn-text-hover: #fff;
+  --color-btn-border-active: transparent;
+  --color-btn-bg-active: padding-box linear-gradient(to top, #cc6d00, #cc6d00);
+  --color-btn-text-active: #fff;
+  --transition-btn: all ease 200ms;
+
+  /* header button */
+  --color-header-btn-border: transparent;
+  --color-header-btn-bg: padding-box linear-gradient(to top, #ff2b0c, #f80);
+  --color-header-btn-text: #fff;
+  --color-header-btn-border-hover: transparent;
+  --color-header-btn-bg-hover: padding-box linear-gradient(to top, #ff2b0c, #f80);
+  --color-header-btn-text-hover: #fff;
+  --color-header-btn-border-active: transparent;
+  --color-header-btn-bg-active: padding-box linear-gradient(to top, #cc6d00, #cc6d00);
+  --color-header-btn-text-active: #fff;
+  --transition-btn-header: all ease 200ms;
+
+  /* Inputs */
+  --color-input-label: #546271;
+  --color-input-border-focus: #212a33;
+
+  /* Radio buttons */
+  --color-input-radio: #b5bbc2;
+  --color-input-radio-checked: #f80;
+  --color-input-radio-label: #546271;
+
+  /* Tables */
+  --color-table-bg-caption: #29363d;
+  --color-table-title: white;
+  --color-table-text: #000;
+  --color-table-dot-line: #546271;
+
+  /* Header colors */
+  --color-header-link: white;
+  --color-header-link-on-bg: white;
+  --color-header-bg: #29363d;
+  --color-header-bg-open: #29363d;
+  --color-header-burger: white;
+  --color-header-burger-on-bg: white;
+  --color-header-border: #c3c9cc;
+  --color-header-border-on-bg: #c3c9cc;
+  --color-header-backlink: #29363d;
+
+  /* Footer colors */
+  --color-footer-bg: #29363d;
+  --color-footer-icon: #29363d;
+  --color-footer-icon-bg: white;
+  --color-footer-title: white;
+  --color-footer-text: white;
+  --color-footer-text-bottom: rgb(110, 119, 130);
+  --color-footer-link: white;
+  --color-footer-link-partner: rgb(110, 119, 130);
+
+  /* Login page */
+  --color-btn-phone-code: #f80;
+
+  /* Order-new page */
+  --color-btn-file: #f80;
+
+  /* Orders page */
+  --color-orders-scrollbar: #f80;
+  --color-orders-scrollbar-bg: #b5bbc2;
+
+  /* Requisites page */
+  --color-requisites-btn-edit: #f80;
+}
